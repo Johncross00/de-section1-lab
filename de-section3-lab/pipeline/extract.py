@@ -9,6 +9,13 @@ OUTPUT = "data/airtravel.csv"
 def extract():
     df = pd.read_csv(URL)
 
+    df.columns = (
+    df.columns
+      .str.strip()
+      .str.replace('"', '', regex=False)
+      .str.lower()
+)
+
     df.to_csv(OUTPUT, index=False)
 
     print("=" * 50)

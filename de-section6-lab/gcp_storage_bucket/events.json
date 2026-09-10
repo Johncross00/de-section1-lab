@@ -1,0 +1,3 @@
+{"user":"Alice","event":"login","amount":null}
+{"user":"Bob","event":"purchase","amount":250.0}
+{"user":"Alice","event":"purchase","amount":500.0}

@@ -1,0 +1,3 @@
+{"event_id":1,"user":"Alice","action":"login","amount":null}
+{"event_id":2,"user":"Bob","action":"purchase","amount":25.0}
+{"event_id":3,"user":"Alice","action":"purchase","amount":999.0}
